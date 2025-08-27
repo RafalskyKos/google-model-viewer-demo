@@ -14,6 +14,7 @@ declare namespace JSX {
       'environment-image'?: string;
       'shadow-intensity'?: string;
       'camera-orbit'?: string;
+      'field-of-view'?: string;
       'min-camera-orbit'?: string;
       'max-camera-orbit'?: string;
       ref?: React.RefObject<any>;

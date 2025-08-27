@@ -19,7 +19,10 @@ const PhoneViewer: React.FC<PhoneViewerProps> = ({ className }) => {
   const qualityLevels: QualityLevel[] = [
     { name: 'Good', src: '/3d/iphone_16_pro_max/good.glb' },
     { name: 'Excellent', src: '/3d/iphone_16_pro_max/excellent.glb' },
-    { name: 'Premium', src: '/3d/iphone_16_pro_max/premium.glb' }
+    { name: 'Premium', src: '/3d/iphone_16_pro_max/premium.glb' },
+    { name: 'Good NEW', src: '/3d/iphone_16_pro_max/good_new.glb' },
+    { name: 'Excellent NEW', src: '/3d/iphone_16_pro_max/excellent_new.glb' },
+    { name: 'Premium NEW', src: '/3d/iphone_16_pro_max/premium_new.glb' },
   ];
 
   const [selectedQuality, setSelectedQuality] = useState<QualityLevel>(qualityLevels[2]); // Excellent по умолчанию
